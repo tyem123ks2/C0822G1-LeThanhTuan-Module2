@@ -16,9 +16,9 @@ public class Exam5_array_SmallValue {
         }
         System.out.println("Mảng vừa nhập là: " + Arrays.toString(arr));
         int min = arr[0];
-        for (int item : arr) {
-            if (item < min) {
-                min = item;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] < min) {
+                min = i;
             }
         }
         System.out.println("Giá trị nhỏ nhất của mảng là " + min);
