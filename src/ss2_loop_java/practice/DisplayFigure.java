@@ -2,7 +2,7 @@ package ss2_loop_java.practice;
 
 import java.util.Scanner;
 
-public class Exam1_displayFigure {
+public class DisplayFigure {
     public static void main(String[] args) {
         int choice = -1;
         Scanner input = new Scanner(System.in);

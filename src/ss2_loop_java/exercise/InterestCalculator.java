@@ -2,7 +2,7 @@ package ss2_loop_java.exercise;
 
 import java.util.Scanner;
 
-public class Ex2_interest_calculator {
+public class InterestCalculator {
     public static void main(String[] args) {
         double money = 1.0;
         int month = 1;

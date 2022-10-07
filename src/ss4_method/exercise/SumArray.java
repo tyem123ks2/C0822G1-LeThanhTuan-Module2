@@ -2,7 +2,7 @@ package ss4_method.exercise;
 
 import java.util.Scanner;
 
-public class Exam1_sumArray {
+public class SumArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int m;

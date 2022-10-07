@@ -3,7 +3,7 @@ package ss3_array_java.practice;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Exam3_arrayMarge {
+public class ArrayMarge {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[] arr1 = new int[5];

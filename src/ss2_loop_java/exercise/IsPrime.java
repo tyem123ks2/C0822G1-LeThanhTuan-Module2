@@ -2,7 +2,7 @@ package ss2_loop_java.exercise;
 
 import java.util.Scanner;
 
-public class Ex1_is_prime {
+public class IsPrime {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a number: ");

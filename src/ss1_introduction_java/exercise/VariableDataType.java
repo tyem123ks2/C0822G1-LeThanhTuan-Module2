@@ -1,6 +1,6 @@
 package ss1_introduction_java.exercise;
 
-public class Ex2_variable_dataType {
+public class VariableDataType {
     public static void main(String[] args) {
         int i = 10; // khai báo biến i là kiểu int có giá trị là 10
         float f = 20.5f; // Khai báo biến f có kiểu là float có giá trị là 20.5

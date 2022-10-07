@@ -2,7 +2,7 @@ package ss4_method.exercise;
 
 import java.util.Scanner;
 
-public class Pactice3_char {
+public class Char {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String str = "They have no idea how heartless I am!";

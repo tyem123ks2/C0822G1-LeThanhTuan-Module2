@@ -1,6 +1,6 @@
 package ss2_loop_java.practice;
 
-public class Exam_isPrime100 {
+public class IsPrime100 {
     public static void main(String[] args) {
         int i = 0;
         int num = 0;

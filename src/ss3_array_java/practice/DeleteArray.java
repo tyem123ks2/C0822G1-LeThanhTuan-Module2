@@ -3,7 +3,7 @@ package ss3_array_java.practice;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Exam1_deleteArray {
+public class DeleteArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int index = 0;

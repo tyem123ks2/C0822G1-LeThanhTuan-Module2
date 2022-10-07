@@ -2,7 +2,7 @@ package ss1_introduction_java.practice;
 
 import java.util.Scanner;
 
-public class Exam2_read {
+public class Read {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập số cần đọc (n>0, n<1000): ");

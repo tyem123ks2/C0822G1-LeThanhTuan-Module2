@@ -3,7 +3,7 @@ package ss3_array_java.practice;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Exam2_addArray {
+public class AddArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = 10;

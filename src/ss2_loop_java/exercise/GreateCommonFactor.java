@@ -2,7 +2,7 @@ package ss2_loop_java.exercise;
 
 import java.util.Scanner;
 
-public class Ex3_greate_common_factor {
+public class GreateCommonFactor {
     public static void main(String[] args) {
         int a;
         int b;

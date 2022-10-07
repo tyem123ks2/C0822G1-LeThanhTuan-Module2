@@ -2,7 +2,7 @@ package ss2_loop_java.exercise;
 
 import java.util.Scanner;
 
-public class Ex4_drawing_menu {
+public class DrawingMenu {
     public static void main(String[] args) {
         int choice = -1;
         Scanner input = new Scanner(System.in);

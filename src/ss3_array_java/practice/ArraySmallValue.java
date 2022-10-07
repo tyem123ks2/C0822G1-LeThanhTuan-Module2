@@ -3,7 +3,7 @@ package ss3_array_java.practice;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Exam5_array_SmallValue {
+public class ArraySmallValue {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n;

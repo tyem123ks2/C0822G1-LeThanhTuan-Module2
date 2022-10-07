@@ -2,7 +2,7 @@ package ss3_array_java.practice;
 
 import java.util.Scanner;
 
-public class Exam4_array_Greatest_Value {
+public class ArrayGreatestValue {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int m;

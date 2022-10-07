@@ -2,7 +2,7 @@ package ss2_loop_java.practice;
 
 import java.util.Scanner;
 
-public class Exam2_20isPrime {
+public class Is20Prime {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int number;

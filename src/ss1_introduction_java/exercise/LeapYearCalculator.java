@@ -2,7 +2,7 @@ package ss1_introduction_java.exercise;
 
 import java.util.Scanner;
 
-public class Ex6_leap_year_calculator {
+public class LeapYearCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập năm muốn kiểm tra năm nhuận: ");

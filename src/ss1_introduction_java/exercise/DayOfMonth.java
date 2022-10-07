@@ -2,7 +2,7 @@ package ss1_introduction_java.exercise;
 
 import java.util.Scanner;
 
-public class Ex5_day_of_month {
+public class DayOfMonth {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Which month that you want to count days?");
