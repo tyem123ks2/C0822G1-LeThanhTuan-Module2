@@ -2,7 +2,7 @@ package ss4_method.exercise.QuadraticEquation;
 
 import java.util.Scanner;
 
-public class Main {
+public class QuadraticEquationMain {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập a: ");
