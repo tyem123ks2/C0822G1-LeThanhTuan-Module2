@@ -23,19 +23,17 @@ public class QuadraticEquation {
         return this.c;
     }
 
-
     public String display() {
         return "Bạn đã nhập: {" + "a = " + a + ", b = " + b + " c = " + c + "}";
     }
-
     public double getDiscriminant() {
         return (this.b * this.b) - 4 * this.a * this.c;
     }
-
     public double getRoot1() {
         double delta = getDiscriminant();
         return (-this.b + Math.sqrt(delta)) / (2 * this.a);
     }
+
     public double getRoot2() {
         double delta = getDiscriminant();
         return (-this.b - Math.sqrt(delta)) / (2 * this.a);
