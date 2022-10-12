@@ -23,16 +23,16 @@ public class Point3D extends Point2D {
     }
 
     public float[] getXYZ(){
-        float[] arr1 = {this.x,this.y,this.z};
+        float[] arr1 = {getX(),getY(),this.z};
         return arr1;
     }
 
     @Override
     public String toString() {
         return "Point3D{" +
-                "z=" + z +
-                ", x=" + x +
-                ", y=" + y +
+                "x = " + x +
+                ", y = " + y +
+                ", z = " + z +
                 '}';
     }
 }
