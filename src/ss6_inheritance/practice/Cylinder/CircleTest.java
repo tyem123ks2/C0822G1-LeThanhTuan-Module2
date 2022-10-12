@@ -5,7 +5,7 @@ public class CircleTest {
         Circle circle = new Circle();
         System.out.println(circle);
 
-        circle = new Circle(1.2, "");
+        circle = new Circle(1.2, "Purple");
         System.out.println(circle);
 
         circle = new Circle(3.5, "Blue");
