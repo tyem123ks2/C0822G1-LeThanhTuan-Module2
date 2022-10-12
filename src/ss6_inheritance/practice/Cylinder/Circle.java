@@ -3,9 +3,11 @@ package ss6_inheritance.practice.Cylinder;
 public class Circle {
     private double radius = 3.0;
     private String color = "Red";
-    public Circle (){
+
+    public Circle() {
     }
-    public Circle (double radius, String color){
+
+    public Circle(double radius, String color) {
         this.radius = radius;
         this.color = color;
     }
@@ -25,10 +27,12 @@ public class Circle {
     public void setColor(String color) {
         this.color = color;
     }
-    public double getArea(){
-        return  radius * radius * Math.PI;
+
+    public double getArea() {
+        return radius * radius * Math.PI;
     }
-    public double getPerimeter(){
+
+    public double getPerimeter() {
         return 2 * radius * Math.PI;
     }
 

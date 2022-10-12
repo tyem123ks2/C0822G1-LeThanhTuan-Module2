@@ -3,7 +3,7 @@ package ss6_inheritance.practice.Point2D;
 public class Point3D extends Point2D {
     private float z;
 
-    public Point3D (){
+    public Point3D() {
     }
 
     public Point3D(float x, float y, float z) {
@@ -19,11 +19,11 @@ public class Point3D extends Point2D {
         this.z = z;
     }
 
-    public void setXYZ (float x, float y, float z){
+    public void setXYZ(float x, float y, float z) {
     }
 
-    public float[] getXYZ(){
-        float[] arr1 = {getX(),getY(),this.z};
+    public float[] getXYZ() {
+        float[] arr1 = {getX(), getY(), this.z};
         return arr1;
     }
 

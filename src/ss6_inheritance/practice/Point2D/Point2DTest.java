@@ -5,7 +5,7 @@ public class Point2DTest {
         Point2D point2D = new Point2D();
         System.out.println(point2D);
 
-        point2D = new Point2D(2,5);
+        point2D = new Point2D(2, 5);
         System.out.println(point2D);
     }
 }

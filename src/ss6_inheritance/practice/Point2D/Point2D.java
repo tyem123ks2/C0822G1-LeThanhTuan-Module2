@@ -4,7 +4,7 @@ public class Point2D {
     protected float x = 0.0f;
     protected float y = 0.0f;
 
-    public Point2D(){
+    public Point2D() {
     }
 
     public Point2D(float x, float y) {
@@ -28,11 +28,11 @@ public class Point2D {
         this.y = y;
     }
 
-    public void setXY (float x, float y) {
+    public void setXY(float x, float y) {
     }
 
-    public float[] getXY () {
-        float[] arr = {this.x,this.y};
+    public float[] getXY() {
+        float[] arr = {this.x, this.y};
         return arr;
     }
 
