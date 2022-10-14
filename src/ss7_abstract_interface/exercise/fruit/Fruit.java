@@ -1,4 +1,6 @@
 package ss7_abstract_interface.exercise.fruit;
 
-public class Fruit {
+import ss7_abstract_interface.exercise.edible.Edible;
+
+public abstract class Fruit implements Edible {
 }

@@ -15,6 +15,9 @@ public class Circle extends Shape implements Colorable  {
         this.radius = radius;
     }
 
+    private void setShape(String color, boolean filled) {
+    }
+
     public double getRadius() {
         return radius;
     }

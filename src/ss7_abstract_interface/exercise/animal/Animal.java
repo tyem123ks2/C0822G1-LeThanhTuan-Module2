@@ -1,4 +1,5 @@
 package ss7_abstract_interface.exercise.animal;
 
-public class Animal {
+public abstract class Animal {
+    public abstract String makeSound();
 }
