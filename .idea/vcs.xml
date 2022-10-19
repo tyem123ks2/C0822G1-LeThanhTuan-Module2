@@ -3,5 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/apj-calculator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/ss8_cleancode_mvc/exercise/ex1/apj-calculator" vcs="Git" />
   </component>
 </project>
