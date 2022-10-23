@@ -14,8 +14,9 @@ public class TestProduct {
                     "3.Edit product.\n" +
                     "4.Delete product.\n" +
                     "5.Sort product.\n" +
-                    "6.Exit.\n" +
-                    "7.Return menu.");
+                    "6.Sreach product.\n" +
+                    "7.Exit.\n" +
+                    "8.Return menu.");
             System.out.print("Choice of you : ");
             choice = Integer.parseInt(scanner.nextLine());
             switch (choice) {
@@ -35,9 +36,12 @@ public class TestProduct {
                     productManager.sortProduct();
                     break;
                 case 6:
-                    System.exit(1);
+                    productManager.sreachProduct();
                     break;
                 case 7:
+                    System.exit(1);
+                    break;
+                case 8:
                     break;
             }
         }

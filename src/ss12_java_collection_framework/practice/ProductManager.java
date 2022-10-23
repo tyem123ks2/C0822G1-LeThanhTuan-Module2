@@ -1,7 +1,6 @@
 package ss12_java_collection_framework.practice;
 
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.*;
 
 public class ProductManager extends Product {
     Scanner scanner = new Scanner(System.in);
@@ -27,7 +26,7 @@ public class ProductManager extends Product {
         System.out.println("Nhập ID sản phẩm: ");
         product.setId(Integer.parseInt(scanner.nextLine()));
         System.out.println("Nhập tên sản phẩm: ");
-        product.setProductz(scanner.nextLine());
+        product.setProductName(scanner.nextLine());
         System.out.println("Nhập giá tiền sản phẩm: ");
         product.setPrice(Integer.parseInt(scanner.nextLine()));
         myArrayList.add(product);
@@ -37,10 +36,10 @@ public class ProductManager extends Product {
     public void editProduct() {
         System.out.println("Nhập ID sản phẩm muốn chỉnh sửa thông tin: ");
         int id = Integer.parseInt(scanner.nextLine());
-        for (Product product: myArrayList) {
-            if (product.getId() == id){
+        for (Product product : myArrayList) {
+            if (product.getId() == id) {
                 System.out.println("Nhập game mới: ");
-                product.setProductz(scanner.nextLine());
+                product.setProductName(scanner.nextLine());
                 System.out.println("Nhập giá game mới: ");
                 product.setPrice(Integer.parseInt(scanner.nextLine()));
                 System.out.println("Nhập ID game mới: ");
@@ -60,9 +59,31 @@ public class ProductManager extends Product {
         display();
     }
 
-
-
+    public void sreachProduct() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Nhập tên game muốn tìm kiếm: ");
+        String name = scanner.nextLine();
+        boolean check = false;
+        for (Product product : myArrayList) {
+            if (product.getProductName().equals(name)) {
+                check = true;
+                System.out.println(product.toString());
+//                return;
+            }
+        }
+            if (check == false) {
+                System.out.println("không tìm thấy");
+            }
+//        System.out.println("Không tìm thấy");
+    }
     public void sortProduct() {
+        Collections.sort(myArrayList, new Comparator<Product>() {
+            @Override
+            public int compare(Product o1, Product o2) {
+                return (int) (o1.getPrice() - o2.getPrice());
+            }
+        });
+        display();
     }
 
 

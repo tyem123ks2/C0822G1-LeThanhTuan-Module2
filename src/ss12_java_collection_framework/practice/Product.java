@@ -1,25 +1,25 @@
 package ss12_java_collection_framework.practice;
 
 public class Product {
-    private String productz;
+    private String productName;
     private int id;
     private double price;
 
     public Product() {
     }
 
-    public Product(String productz, int id, double price) {
-        this.productz = productz;
+    public Product(String productName, int id, double price) {
+        this.productName = productName;
         this.id = id;
         this.price = price;
     }
 
-    public String getProductz() {
-        return productz;
+    public String getProductName() {
+        return productName;
     }
 
-    public void setProductz(String productz) {
-        this.productz = productz;
+    public void setProductName(String productName) {
+        this.productName = productName;
     }
 
     public int getId() {
@@ -41,7 +41,7 @@ public class Product {
     @Override
     public String toString() {
         return "Product{" +
-                "Game:'" + productz + '\'' +
+                "Game:'" + productName + '\'' +
                 ", ID = " + id +
                 ", Price = " + price +
                 '}';
