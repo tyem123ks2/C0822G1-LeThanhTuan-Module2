@@ -8,7 +8,7 @@ public class Palindrome {
         char char1;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập vào chuỗi kí tự cần kiểm tra: ");
-        text = scanner.nextLine();
+        text = scanner.nextLine().toUpperCase();
 
         for (int i = 0; i < text.length(); i++) {
             char1 = text.charAt(text.length() - i - 1);

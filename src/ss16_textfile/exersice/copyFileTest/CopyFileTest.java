@@ -21,6 +21,7 @@ public class CopyFileTest {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        System.out.println("Số ký tự có trong chuỗi là: " + str.length());
         return str;
     }
 
@@ -31,7 +32,6 @@ public class CopyFileTest {
         try {
             fileWriter = new FileWriter(file);
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-
             bufferedWriter.write(string);
             bufferedWriter.newLine();
             bufferedWriter.close();
@@ -44,7 +44,7 @@ public class CopyFileTest {
     public static void main(String[] args) {
         CopyFileTest.writeFile("src\\ss16_textfile\\exersice\\copyFileTest\\data\\Gumayusi.txt",
                 readFile("src\\ss16_textfile\\exersice\\copyFileTest\\data\\JackeyLove.txt"));
-        System.out.println("Copies successful!!");
+        System.out.println();
     }
 }
 
