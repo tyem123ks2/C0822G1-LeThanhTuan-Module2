@@ -42,8 +42,8 @@ public class CopyFileTest {
     }
 
     public static void main(String[] args) {
-        CopyFileTest.writeFile("src\\ss16_textfile\\exersice\\copyFileTest\\data\\Gumayusi.txt",
-                readFile("src\\ss16_textfile\\exersice\\copyFileTest\\data\\JackeyLove.txt"));
+        CopyFileTest.writeFile("src\\ss16_textfile\\exersice\\copyFileTest\\data\\target.txt",
+                readFile("src\\ss16_textfile\\exersice\\copyFileTest\\data\\source.txt"));
         System.out.println();
     }
 }
