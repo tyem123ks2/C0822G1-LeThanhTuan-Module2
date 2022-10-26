@@ -10,15 +10,15 @@ public class Palindrome {
         System.out.println("Nhập vào chuỗi kí tự cần kiểm tra: ");
         text = scanner.nextLine();
 
-        for (int i = 0; i < text.length(); i++){
+        for (int i = 0; i < text.length(); i++) {
             char1 = text.charAt(text.length() - i - 1);
-           if (text.charAt(i) == char1) {
-               System.out.println("Chuỗi kí tự " + text + " - là chuỗi Panlidrome.");
-               break;
-           } else {
-               System.out.println("Chuối kí tự " + text + " - KHÔNG là chuỗi Panlidrome");
-               break;
-           }
+            if (text.charAt(i) == char1) {
+                System.out.println("Chuỗi kí tự " + text + " - là chuỗi Panlidrome.");
+                break;
+            } else {
+                System.out.println("Chuối kí tự " + text + " - KHÔNG là chuỗi Panlidrome");
+                break;
+            }
         }
     }
 }
