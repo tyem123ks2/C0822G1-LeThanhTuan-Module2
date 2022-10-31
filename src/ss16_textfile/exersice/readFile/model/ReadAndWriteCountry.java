@@ -9,7 +9,7 @@ public class ReadAndWriteCountry {
         BufferedReader br = null;
         try {
             String line;
-            br = new BufferedReader(new FileReader("src/ss16_textfile/exersice/readFile/data/nation.csv"));
+            br = new BufferedReader(new FileReader("src/ss16_textfile/exersice/readFile/data.dat/nation.csv"));
 
             while ((line = br.readLine()) != null) {
                 printCountry(parseCsvLine(line));

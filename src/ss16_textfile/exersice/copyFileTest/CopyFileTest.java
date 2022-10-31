@@ -42,8 +42,8 @@ public class CopyFileTest {
     }
 
     public static void main(String[] args) {
-        CopyFileTest.writeFile("src\\ss16_textfile\\exersice\\copyFileTest\\data\\target.txt",
-                readFile("src\\ss16_textfile\\exersice\\copyFileTest\\data\\source.txt"));
+        CopyFileTest.writeFile("src\\ss16_textfile\\exersice\\copyFileTest\\data.dat\\target.txt",
+                readFile("src\\ss16_textfile\\exersice\\copyFileTest\\data.dat\\source.txt"));
         System.out.println();
     }
 }
@@ -67,7 +67,7 @@ public class CopyFileTest {
 //    }
 //
 //    public static void main(String[] args) throws IOException {
-//        File file = new File("src/ss16_textfile/exersice/copyFileTest/data");
+//        File file = new File("src/ss16_textfile/exersice/copyFileTest/data.dat");
 //        File file_copy = new File("src/ss16_textfile/exersice/copyFileTest/data_copy");
 //        CopyFileTest.copyAll(file, file_copy);
 //        System.out.println("Copy thành công!!");
@@ -76,8 +76,8 @@ public class CopyFileTest {
 //        InputStream inStream = null;
 //        OutputStream outStream = null;
 //        try {
-//            inStream = new FileInputStream(new File("src/ss16_textfile/exersice/copyFileTest/data/JackeyLove.txt"));
-//            outStream = new FileOutputStream(new File("src/ss16_textfile/exersice/copyFileTest/data/Gumayusi.txt"));
+//            inStream = new FileInputStream(new File("src/ss16_textfile/exersice/copyFileTest/data.dat/JackeyLove.txt"));
+//            outStream = new FileOutputStream(new File("src/ss16_textfile/exersice/copyFileTest/data.dat/Gumayusi.txt"));
 //            int length;
 //            byte[] buffer = new byte[1024];
 //            while ((length = inStream.read(buffer)) > 0) {

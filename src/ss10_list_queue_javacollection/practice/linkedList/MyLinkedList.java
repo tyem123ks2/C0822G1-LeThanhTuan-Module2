@@ -84,7 +84,7 @@ public class MyLinkedList<E> {
         Node temp = head;
 
         Object data;
-        //Nếu index = 0 thì sẽ trả về data hiện tại
+        //Nếu index = 0 thì sẽ trả về data.dat hiện tại
         if (index == 0) {
             data = temp.data;
             head = head.next;
@@ -109,7 +109,7 @@ public class MyLinkedList<E> {
             //Khai báo 1 node temp trỏ đến head
             Node temp = head;
             while (temp.next != null) {
-                //Nếu như tồn tại 1 phần tử có data bằng data truyền vào thì node đó sẽ bị remove
+                //Nếu như tồn tại 1 phần tử có data.dat bằng data.dat truyền vào thì node đó sẽ bị remove
                 if (temp.next.data.equals(element)) {
                     temp.next = temp.next.next;
                     numNodea--;
