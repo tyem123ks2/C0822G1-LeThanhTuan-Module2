@@ -11,11 +11,11 @@ public class ValidateClassTest {
         validateClass = new ValidateClass();
         for (String name : valiClass){
             boolean isvalid = validateClass.validate(name);
-            System.out.println("Name is " + name + " is valid " + isvalid);
+            System.out.println("ClassName - " + name + " is valid: " + isvalid);
         }
         for (String name : invalidClass) {
             boolean isvalid = validateClass.validate(name);
-            System.out.println("Name is " + name +" is valid: "+ isvalid);
+            System.out.println("ClassName - " + name +" is valid: "+ isvalid);
         }
     }
 }

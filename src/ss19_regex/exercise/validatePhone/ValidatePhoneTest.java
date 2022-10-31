@@ -10,11 +10,11 @@ public class ValidatePhoneTest {
         validatePhone = new ValidatePhone();
         for (String number : valiPhone){
             boolean isvalid = validatePhone.validate(number);
-            System.out.println("Number Phone is " + number + " is valid: " + isvalid);
+            System.out.println("PhoneNumbers - " + number + " is valid: " + isvalid);
         }
         for (String number : invalidPhone) {
             boolean isvalid = validatePhone.validate(number);
-            System.out.println("Number Phone is " + number +" is valid: "+ isvalid);
+            System.out.println("PhoneNumbers - " + number +" is valid: "+ isvalid);
         }
     }
 }
