@@ -4,7 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class ValidateClass {
-    public static final String CLASS_NAME = "^[CAP][0-9]{4}[GHIKLM]$";
+    public static final String CLASS_NAME = "^[CAP]+\\d{4}[GHIKLM]$";
 
     public ValidateClass(){
 
