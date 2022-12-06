@@ -1,6 +1,9 @@
 package ss12_java_collection_framework.practice;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Scanner;
 
 public class ProductManager extends Product {
     Scanner scanner = new Scanner(System.in);

@@ -13,7 +13,7 @@ public class TestProduct {
 
     private static void writeFile() {
         try {
-            FileOutputStream fileOutputStream = new FileOutputStream("src\\ss17_binaryfile\\exercise\\data.dat");
+            FileOutputStream fileOutputStream = new FileOutputStream("src\\ss17_binaryfile\\exercise\\data\\data.dat");
             ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
             objectOutputStream.writeObject(products);
             objectOutputStream.close();

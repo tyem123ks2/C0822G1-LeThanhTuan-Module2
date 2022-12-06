@@ -1,4 +1,4 @@
-package ss14_sreach.practice.SelectionSort;
+package ss14_sort.practice.selectionSort;
 
 public class SelectionSort {
     static double[] list = {1, 9, 4.5, 6.6, 5.7, -4.5};

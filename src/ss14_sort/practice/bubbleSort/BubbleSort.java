@@ -1,4 +1,4 @@
-package ss14_sreach.practice.BubbleSort;
+package ss14_sort.practice.bubbleSort;
 
 public class BubbleSort {
     static int[] list = {2, 3, 2, 5, 6, 1, -2, -7, 3, 14, 12};
